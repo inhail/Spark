@@ -23,4 +23,6 @@ Step 2: Copy spark to slaves(data1 and data2, use data1 as example)
   
 Step 3: Start 'Spark standalone cluster'  
 1.type "sudo gedit /usr/local/spark/conf/slaves"(the content can be found in this repository)  
-2.type "/usr/local/spark/sbin/start-all.sh"
+2.type "/usr/local/spark/sbin/start-all.sh"  
+3.type "spark-shell --master psark://master:7077"  
+(Stop 'Spark standalone cluster': after quit scala, type "/usr/local/spark/sbin/stop-all.sh")  
