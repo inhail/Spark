@@ -2,7 +2,7 @@
 Spark install and basic computing operation  
 See hadoop_2 to install hadoop 2 first  
   
-Step 1: Install Spark
+Step 1: Install Spark  
 1.go to 'spark apache' website and copy the download link's location  
 below is on 'master' hadoop(here we down spark-2.2.1-bin.hadoop2.7.tgz)  
 2.type "wget http://apache.stu.edu.tw/spark/spark-2.2.1/spark-2.2.1-bin-hadoop2.7.tgz"  
