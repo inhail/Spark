@@ -11,4 +11,6 @@ below is on 'master' hadoop(here we down spark-2.2.1-bin.hadoop2.7.tgz)
 5.type "sudo gedit ~/.bashrc" (the content can be found in this repository)  
 6.type "source ~/.bashrc"  
 7.type "spark-shell" to test the installation. If installation succeeded, you will see "scala>"
-8.type ":quit" to exit scala
+8.type ":quit" to exit scala  
+9.type "cp /usr/local/spark/conf/spark-env.sh.template /usr/local/spark/conf/spark-env.sh"    
+10.type "sudo gedit /usr/local/spark/conf/spark-env.sh"(the content can be found in this repository)   
